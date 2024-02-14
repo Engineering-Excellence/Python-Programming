@@ -61,3 +61,27 @@ log_result = not (num1 >= 50)
 print(log_result)
 
 print('=' * 100)
+
+# 2.2.4 대입 연산자
+# (1) 변수에 값 할당(=)
+i = tot = 10  # i = 10; tot = 10
+i += 1  # i = i + 1
+tot += i  # tot = tot + i
+print('i = %d, tot = %d' % (i, tot))
+
+# 같은 줄에 중복 출력
+print('출력1', end=', ')  # end='구분자'
+print('출력2')
+
+# (2) 변수 교체
+v1, v2 = 100, 200
+v2, v1 = v1, v2
+print('v1 = %d, v2 = %d' % (v1, v2))
+
+# (3) 패킹(Packing) 할당
+lst = [1, 2, 3, 4, 5]
+v1, *v2 = lst
+print('v1 = {}, v2 = {}'.format(v1, v2))
+
+*v1, v2 = lst
+print('v1 = {}, v2 = {}'.format(v1, v2))
