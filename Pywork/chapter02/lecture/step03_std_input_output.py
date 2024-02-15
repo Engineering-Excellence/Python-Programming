@@ -15,3 +15,14 @@ print('num1 * 2 =', num1 * 2)
 num2 = float(input("숫자 입력: "))  # str → float (형변환)
 result = num1 + num2  # 실수 = 정수 + 실수
 print('result =', result)
+
+# 2.3.2 표준출력장치
+# (1) value 인수
+print('value =', 10 + 20 + 30 + 40 + 50)
+
+# (2) sep 인수: 값과 값을 특수문자로 구분
+print('010', '1234', '5678', sep='-')
+
+# (3) end 인수
+print('value =', 10, end=', ')
+print('value =', 20)
