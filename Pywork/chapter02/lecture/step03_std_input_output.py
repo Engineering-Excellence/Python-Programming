@@ -26,3 +26,9 @@ print('010', '1234', '5678', sep='-')
 # (3) end 인수
 print('value =', 10, end=', ')
 print('value =', 20)
+
+# 2.3.3 format과 양식문자
+# (4) format() 함수 인수: format(value, 'format')
+print('원주율 =', format(3.1415926535, '8.3f'))
+print('금액 =', format(10000, '10d'))
+print('금액 =', format(125000, '10,d'))
