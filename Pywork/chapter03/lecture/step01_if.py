@@ -17,3 +17,16 @@ else:
         print('보통')
     else:
         print('저조')
+
+# 3.2.2 중첩 조건문
+score = int(input('점수 입력: '))
+grade = ''  # 등급
+
+if 85 <= score <= 100:
+    grade = '우수'
+elif score >= 70:
+    grade = '보통'
+else:
+    grade = '저조'
+
+print('당신의 점수는 %d이고, 등급은 %s' % (score, grade))
