@@ -39,3 +39,45 @@ while True:
         numData.append(num)  # list 추가
 
 print(numData)
+
+print('-' * 150)
+
+# 3.3.2 random 모듈
+# (1) random module 추가
+import random
+help(random)  # 모듈 도움말
+
+# (2) random 모듈의 함수 도움말
+help(random.random)
+help(random.randint)
+help(random.choices)  # 모집단에서 k 크기 목록 반환
+
+# (3) 0~1 사이 난수 실수
+r = random.random()
+print('r =', r)
+
+# [실습] 난수 0.01 미만이면 종료 후 난수 개수 출력
+cnt = 0
+while True:
+    r = random.random()
+    print(r)
+    if r < 0.01:
+        break  # loop exit
+    else:
+        cnt += 1
+print('난수 개수:', cnt)
+
+# (4) 이름 list에 전체 이름, 특정 이름 출력
+names = ['홍길동', '이순신', '유관순']
+print(names)  # 전체 이름 출력
+print(names[2])  # 특정 이름 출력
+
+# (5) list에서 자료 유무 확인하기
+if '유관순' in names:
+    print('유관순 있음')
+else:
+    print('유관순 없음')
+
+# (6) 난수 정수로 이름 선택하기
+idx = random.randint(0, 2)
+print(names[idx])
