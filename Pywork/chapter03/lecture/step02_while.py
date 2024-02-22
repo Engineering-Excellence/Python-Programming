@@ -81,3 +81,15 @@ else:
 # (6) 난수 정수로 이름 선택하기
 idx = random.randint(0, 2)
 print(names[idx])
+
+print('-' * 150)
+
+# 3.3.3 break, continue
+i = 0
+while i < 10:
+    i += 1  # 카운터
+    if i == 3:
+        continue  # 다음 문장 skip
+    if i == 6:  # 탈출 조건
+        break  # exit
+    print(i, end=' ')
