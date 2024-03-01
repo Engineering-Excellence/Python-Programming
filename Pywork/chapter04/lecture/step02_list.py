@@ -84,3 +84,17 @@ if 4 in r:
     print('있음')
 else:
     print('없음')
+
+print()
+
+# 4.2.3 리스트 내포(List Comprehension)
+# 변수 = [실행문 for 변수 in 열거형객체 if 조건식]
+x = [2, 4, 1, 5, 7]
+# print(x ** 2)  # error
+
+lst = [i ** 2 for i in x]  # x 변량에 제곱 계산
+print(lst)
+
+num = list(range(1, 11))
+lst2 = [i * 2 for i in num if i % 2 == 0]
+print(lst2)
