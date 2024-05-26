@@ -6,22 +6,22 @@ dataset = [2, 4, 5, 6, 1, 8]
 
 
 # (1) 산술평균
-def Avg(data: list) -> float:
-    avg = mean(data)
-    return avg
+def avg(data: list) -> float:
+    m = mean(data)
+    return m
 
 
-print("산술평균 =", Avg(dataset))
+print("산술평균 =", avg(dataset))
 
 print()
 
 
 # (2) 분산/표준편차
 def var_sd(data: list) -> tuple:
-    avg = Avg(data)  # 함수 호출
+    m = avg(data)  # 함수 호출
 
     # list 내포
-    diff = [(d - avg) ** 2 for d in data]
+    diff = [(d - m) ** 2 for d in data]
 
     var = sum(diff) / (len(data) - 1)
     sd = sqrt(var)
