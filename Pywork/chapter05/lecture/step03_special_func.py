@@ -45,3 +45,17 @@ def emp_func(name: str, age: int, **other: dict):
 
 # emp_func 함수 호출
 emp_func('홍길동', 35, addr='서울시', height=17)
+
+print()
+
+
+# 5.5.2 람다 함수
+# (1) 일반 함수
+def adder(x: int, y: int) -> int:
+    return x + y
+
+
+print('add =', adder(10, 20))
+
+# (2) 람다 함수
+print('add =', (lambda x, y: x + y)(10, 20))
