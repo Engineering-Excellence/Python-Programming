@@ -86,3 +86,34 @@ avg, var, std = scattering_func(data)
 print('평균:', avg())
 print('분산:', var(avg()))
 print('표준편차:', std(var(avg())))
+
+print()
+
+
+# 5.6.3 획득자(Getter), 지정자(Setter), nonlocal
+# 획득자: 함수 내부에서 생성한 자료를 외부로 반환하는 함수로 반드시 return 명령문을 갖는다.
+# 지정자: 함수 내부에서 생성한 자료를 외부에서 수정하는 함수로 반드시 매개변수를 갖는다. 만약 외부 함수에서 생성된 자료를 수정할 경우에는 해당 변수에 nonlocal 명령어를 쓴다.
+
+# (1) 중첩함수 정의
+def main_func(num):
+    num_val = num  # 자료 생성
+
+    def getter():  # 획득자 함수, return 있음
+        return num_val
+
+    def setter(value):  # 지정자 함수, 인수 있음
+        nonlocal num_val  # nonlocal 명령어
+        num_val = value
+
+    return getter, setter  # 함수 클로저 반환
+
+
+# (2) 외부 함수 호출
+getter, setter = main_func(100)  # num 생성
+
+# (3) 획득자 호출
+print('num =', getter())  # 획득한 num 확인
+
+# (4) 지정자 획득
+setter(200)  # num 값 수정
+print('num =', getter())  # num 수정 확인
