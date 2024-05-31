@@ -2,7 +2,7 @@
 
 # 5.5.1 가변인수 함수
 # (1) 튜플형 가변인수
-def func1(name: str, *names: tuple):
+def func1(name: str, *names: tuple) -> None:
     print(name)  # 실인수: 홍길동
     print(names)  # 실인수: ('이순신', '유관순')
 
@@ -37,7 +37,7 @@ print()
 
 
 # (3) dict형 가변인수
-def emp_func(name: str, age: int, **other: dict):
+def emp_func(name: str, age: int, **other: dict) -> None:
     print(name)
     print(age)
     print(other)
@@ -67,7 +67,7 @@ print()
 x = 50  # 전역변수
 
 
-def local_func(x: int):
+def local_func(x: int) -> None:
     x += 50  # 지역변수 -> 종료 시점 소멸
 
 
@@ -76,7 +76,7 @@ print('x =', x)
 
 
 # (2) 전역변수 예
-def global_func():
+def global_func() -> None:
     global x  # 전역변수 x 사용
     x += 50  # x + 50 = 100
 

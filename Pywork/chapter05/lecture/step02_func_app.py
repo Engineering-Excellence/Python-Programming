@@ -39,7 +39,7 @@ print()
 
 
 # 5.4.2 피타고라스 정리
-def pytha(s: int, t: int):
+def pytha(s: int, t: int) -> None:
     a = s ** 2 - t ** 2
     b = 2 * s * t
     c = s ** 2 + t ** 2
@@ -49,7 +49,6 @@ def pytha(s: int, t: int):
 pytha(2, 1)  # s, t의 인수는 양의 정수를 갖는다.
 
 print()
-
 
 # 5.4.3 몬테카를로 시뮬레이션
 """

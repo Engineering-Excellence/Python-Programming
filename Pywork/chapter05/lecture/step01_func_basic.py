@@ -26,7 +26,7 @@ print()
 
 # 5.4 사용자정의함수
 # (1) 인수가 없는 함수
-def userFunc1():
+def userFunc1() -> None:
     print('인수가 없는 함수')
     print('userFunc1')
 
