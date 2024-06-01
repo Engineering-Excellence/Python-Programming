@@ -36,7 +36,7 @@ def outer_func(data: list) -> tuple[Callable[[], int], Callable[[int], float]]:
 
 
 # 외부 함수 호출: data 생성
-tot, avg = outer_func(data)
+tot, avg = outer_func(data=data)
 
 # 내부 함수 호출
 tot_val = tot()
@@ -82,7 +82,7 @@ def scattering_func(data: list) -> tuple[Callable, Callable, Callable]:  # outer
 
 
 # (5) 외부 함수 호출
-avg, var, std = scattering_func(data)
+avg, var, std = scattering_func(data=data)
 
 # (6) 내부 함수 호출
 print('평균:', avg())
@@ -111,7 +111,7 @@ def main_func(num: int) -> tuple[Callable[[], int], Callable[[int], None]]:
 
 
 # (2) 외부 함수 호출
-getter, setter = main_func(100)  # num 생성
+getter, setter = main_func(num=100)  # num 생성
 
 # (3) 획득자 호출
 print('num =', getter())  # 획득한 num 확인
@@ -142,3 +142,24 @@ def hello() -> None:
 
 # (3) 함수 호출
 hello()
+
+print()
+
+
+# 5.7 재귀함수
+
+# 5.7.1 카운트
+# (1) 재귀함수 정의: 1~n 카운트
+def counter(n: int) -> int:
+    if n == 0:
+        return 0  # 종료 조건
+    else:
+        counter(n - 1)  # 재귀호출
+        print(n, end=' ')
+
+
+# (2) 함수 호출1
+print('n = 0:', counter(n=0))
+
+# (3) 함수 호출2
+counter(n=5)
