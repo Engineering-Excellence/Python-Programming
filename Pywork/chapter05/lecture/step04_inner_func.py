@@ -154,7 +154,7 @@ def counter(n: int) -> int:
     if n == 0:
         return 0  # 종료 조건
     else:
-        counter(n - 1)  # 재귀호출
+        counter(n=n - 1)  # 재귀호출
         print(n, end=' ')
 
 
@@ -163,3 +163,23 @@ print('n = 0:', counter(n=0))
 
 # (3) 함수 호출2
 counter(n=5)
+print('\n')
+
+
+# 5.7.2 누적합
+# (1) 재귀함수 정의: 1~n 누적합
+def adder(n: int) -> int:
+    if n == 1:  # 종료 조건
+        return 1
+    else:
+        result = n + adder(n=n - 1)  # 재귀호출
+
+        print(n, end=' ')  # (4) 스택 영역
+        return result
+
+
+# (2) 함수 호출
+print('n = 1:', adder(n=1))
+
+# (3) 함수 호출
+print('\nn = 5:', adder(n=5))
