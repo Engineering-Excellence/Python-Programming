@@ -1,7 +1,9 @@
 # [문제2] 중첩함수를 적용하여 은행계좌 함수를 작성하시오.
+from typing import Callable
+
 
 # 함수 정의
-def bank_account(bal: int) -> tuple:
+def bank_account(bal: int) -> tuple[Callable, Callable, Callable]:
     balance = bal  # 잔액 초기화(1000)
 
     def get_balance() -> int:  # 잔액확인(getter)
