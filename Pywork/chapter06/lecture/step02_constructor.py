@@ -14,7 +14,7 @@ class Multiply:
         return self.x * self.y
 
 
-obj = Multiply(10, 20)  # 생성자
+obj: Multiply = Multiply(x=10, y=20)  # 생성자
 print('곱셈 =', obj.mul())
 
 
@@ -40,6 +40,32 @@ class Multiply2:
         del self.y
 
 
-obj = Multiply2()  # 기본 생성자
-obj.data(10, 20)  # 동적 멤버변수 생성
+obj: Multiply2 = Multiply2()  # 기본 생성자
+obj.data(x=10, y=20)  # 동적 멤버변수 생성
 print('곱셈 =', obj.mul())
+
+print()
+
+
+# 6.2.4 self
+class Multiply3:
+    # 멤버변수 없음
+    # 생성자 없음
+
+    # 동적 멤버변수 생성/초기화
+    def data(self, x: int, y: int) -> None:
+        self.x = x
+        self.y = y
+
+    # 곱셈 연산
+    def mul(self) -> None:
+        self.display(self.x * self.y)
+
+    # 결과 출력
+    def display(self, result: int) -> None:
+        print('곱셈 = %d' % result)
+
+
+obj: Multiply3 = Multiply3()  # 기본 생성자
+obj.data(x=10, y=20)
+obj.mul()
