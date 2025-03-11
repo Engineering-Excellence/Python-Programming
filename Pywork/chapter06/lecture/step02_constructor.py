@@ -1,4 +1,5 @@
 # 6.2.3 생성자
+
 # (1) 생성자 이용 멤버변수 초기화
 class Multiply:
     # 멤버 변수
@@ -54,7 +55,7 @@ class Multiply3:
 
     # 동적 멤버변수 생성/초기화
     def data(self, x: int, y: int) -> None:
-        self.x = x
+        self.x = x  # 호출시 동적으로 멤버변수 생성
         self.y = y
 
     # 곱셈 연산
