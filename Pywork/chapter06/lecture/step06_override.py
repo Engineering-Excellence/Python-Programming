@@ -1,9 +1,8 @@
 # 6.3.3 메서드 재정의
-
-# (1) 부모클래스
-from typing import Optional
+from typing_extensions import Optional, override
 
 
+# (1) 부모 클래스
 class Employee:
     name: str = Optional[str]
     pay: int = 0
@@ -15,21 +14,23 @@ class Employee:
         pass
 
 
-# (2) 자식클래스: 정규직
+# (2) 자식 클래스: 정규직
 class Permanent(Employee):
     def __init__(self, name: str) -> None:
         super().__init__(name)  # 부모 생성자 호출
 
+    @override
     def pay_calc(self, base: int, bonus: int) -> None:
         self.pay = base + bonus  # 급여=기본급+상여금
         print('총 수령액:', format(self.pay, '3,d'), '원')
 
 
-# (3) 자식클래스: 임시직
+# (3) 자식 클래스: 임시직
 class Temporary(Employee):
     def __init__(self, name: str) -> None:
         super().__init__(name)  # 부모 생성자 호출
 
+    @override
     def pay_calc(self, tpay: int, time: int) -> None:
         self.pay = tpay * time  # 급여=작업시간*시급
         print(f'총 수령액: {self.pay:3,d} 원')

@@ -1,5 +1,8 @@
 # 6.3.2 상속
 # (1) 부모 클래스
+from typing_extensions import override
+
+
 class Super:
     # 생성자: 동적멤버 생성
     def __init__(self, name: str, age: int) -> None:
@@ -31,6 +34,7 @@ class Sub(Super):  # 클래스 상속
         self.__gender = gender
 
     # (4) 메서드 확장
+    @override
     def display(self) -> None:
         print('name: %s, age: %d, gender: %s' % (self.__name, self.__age, self.__gender))
 
