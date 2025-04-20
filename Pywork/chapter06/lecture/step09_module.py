@@ -13,7 +13,7 @@ import chapter06.myPackage.scattering
 data: list[float] = [1, 3, 1.5, 2, 1, 3.2]
 
 # 산술평균 함수 호출
-print(f'평균: {chapter06.myPackage.scattering.avg(data)}')
+print(f'평균: {chapter06.myPackage.scattering.average(data)}')
 
 # 분산과 표준편차 함수 호출
 var, sd = chapter06.myPackage.scattering.var_sd(data)
@@ -24,9 +24,9 @@ print()
 
 # 2. 모듈 추가 (방법2)
 # 형식) from 패키지명.모듈명 import 함수명
-from chapter06.myPackage.scattering import avg, var_sd
+from chapter06.myPackage.scattering import average, var_sd
 
-print(f'평균: {avg(data)}')
+print(f'평균: {average(data)}')
 
 var, sd = var_sd(data)
 print(f'분산: {var}')
