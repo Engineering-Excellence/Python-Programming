@@ -1,7 +1,7 @@
 # 7.3.2 자연어 전처리
 
 from re import findall, sub, compile
-from typing import AnyStr, Pattern
+from typing import Pattern
 
 # 텍스트
 texts: list[str] = [' 우리나라   대한민국, 우리나라%$ 만세', '궁금하면 500오백WON원', '나는 대한민국 사람', '보험료 15000원에 평생 보장 마감 임박', '나는 홍길동']
@@ -20,12 +20,12 @@ texts_re3: list[str] = [sub(punct_pat, '', text) for text in texts_re2]
 print('texts_re3:', texts_re3)
 
 # 단계4: 특수문자 제거
-spec_pat: Pattern[AnyStr] = compile('[@#$%^&*()]')
+spec_pat: Pattern[str] = compile('[@#$%^&*()]')
 texts_re4: list[str] = [sub(spec_pat, '', text) for text in texts_re3]
 print('texts_re4:', texts_re4)
 
 # 단계5: 영문자 제거
-# lower_pat: Pattern[AnyStr] = compile('[^a-z]')
+# lower_pat: Pattern[str] = compile('[^a-z]')
 # texts_re5: list[str] = [''.join(findall(lower_pat, text)) for text in texts_re4]
 texts_re5: list[str] = [sub('[a-z]', '', text) for text in texts_re4]
 print('texts_re5:', texts_re5)
