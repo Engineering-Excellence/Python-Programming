@@ -69,3 +69,18 @@ except Exception as e:
 finally:
     # 파일 객체 닫기
     ftest.close()
+
+print()
+
+# 8.2.3 with 블록과 인코딩 방식
+try:
+    with open(file=f'..{sep}data{sep}ftest3.txt', mode='w', buffering=-1, encoding='utf-8') as ftest:
+        ftest.write('파이썬 파일 작성 연습')
+        ftest.write('\n파이썬 파일 작성 연습2')
+        # with 블록 벗어나면 자동 close
+    with open(f'..{sep}data{sep}ftest3.txt', 'r', -1, 'utf-8') as ftest:
+        print(ftest.read())
+except Exception as e:
+    print('Error 발생:', e)
+finally:
+    pass  # close() 불필요
