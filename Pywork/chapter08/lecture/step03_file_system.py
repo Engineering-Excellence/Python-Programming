@@ -39,3 +39,24 @@ print(os.getcwd())
 
 # 여러 디렉터리 삭제
 os.removedirs(f'test{os.sep}test2')
+
+print()
+
+# 8.3.2 경로 관련 함수
+
+# lecture 디렉터리의 step01_try_except.py 파일 절대경로
+print(os.path.abspath(f'lecture{os.sep}step01_try_except.py'))
+
+# step01_try_except.py 파일의 디렉터리 이름
+print(os.path.dirname(f'lecture{os.sep}step01_try_except.py'))
+
+# Python 디렉터리 유무 확인
+print(os.path.exists(f'C:{os.sep}Users{os.sep}user{os.sep}Documents{os.sep}Study{os.sep}Python'))
+
+# 디렉터리와 파일 분리
+print(os.path.split(f'C:{os.sep}CrashRepoterLog.txt'))
+# 디렉터리와 파일 결합
+print(os.path.join(f'C:{os.sep}', 'CrashRepoterLog.txt'))
+
+# step01_try_except.py 파일 크기
+print(os.path.getsize(f'lecture{os.sep}step01_try_except.py'))
