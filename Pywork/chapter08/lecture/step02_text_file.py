@@ -2,15 +2,14 @@
 
 # 8.2.1 텍스트 파일 입출력
 from os import getcwd, sep
-from io import TextIOWrapper
-from typing import Optional
+from typing import TextIO, Optional
 
 # (1) 현재 작업디렉터리
 print('현재 경로:', getcwd())
 
-ftest1: Optional[TextIOWrapper] = None
-ftest2: Optional[TextIOWrapper] = None
-ftest3: Optional[TextIOWrapper] = None
+ftest1: Optional[TextIO] = None
+ftest2: Optional[TextIO] = None
+ftest3: Optional[TextIO] = None
 
 # (2) 예외처리
 try:
@@ -37,7 +36,7 @@ print()
 # 8.2.2 텍스트 자료 읽기
 
 # 파일 읽기 관련 함수
-ftest: Optional[TextIOWrapper] = None
+ftest: Optional[TextIO] = None
 try:
     # (1) read(): 전체 텍스트 자료 읽기
     ftest = open(f'..{sep}data{sep}ftest.txt', 'r')

@@ -60,3 +60,12 @@ print(os.path.join(f'C:{os.sep}', 'CrashRepoterLog.txt'))
 
 # step01_try_except.py 파일 크기
 print(os.path.getsize(f'lecture{os.sep}step01_try_except.py'))
+
+print()
+
+# 8.3.3 glob 모듈
+from glob import glob
+
+print(glob(pathname='*'))  # 현재 경로의 모든 목록 반환
+print(glob(pathname=f'lecture{os.sep}*.py'))  # lecture 디렉터리에 포함된 *.py 파일 반환
+print(glob(pathname=f'data{os.sep}ftest[0-9].txt', recursive=True)) # 하위 폴더까지 재귀 검색

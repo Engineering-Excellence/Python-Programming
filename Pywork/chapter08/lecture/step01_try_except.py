@@ -1,8 +1,8 @@
 # 8.1 예외처리
 
 # 8.1.1 간단한 예외처리
-from io import TextIOWrapper
 from os import sep
+from typing import TextIO
 
 x: list = [10, 30, 25.2, 'num', 14, 51]
 
@@ -32,7 +32,7 @@ try:
     div: float = 1000 / 2.53
     print('div = %5.2f' % div)  # 정상
     div = 1000 / 0  # 1차: 산술적 예외
-    f: TextIOWrapper = open(file=f'{sep}test.txt')  # 2차: 파일 열기 예외
+    f: TextIO = open(file=f'{sep}test.txt')  # 2차: 파일 열기 예외
     num: int = int(input('숫자 입력: '))  # 3차: 기타 예외
     print('num =', num)
 
