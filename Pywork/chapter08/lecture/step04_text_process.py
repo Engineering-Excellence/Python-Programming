@@ -64,3 +64,23 @@ print(type(tot_texts))
 print(tot_texts)
 for text in tot_texts:
     print(text, end='')
+
+print()
+
+# 8.4.2 pickle 저장
+from pickle import dump, load  # file save
+
+try:
+    # (1) file save: write binary
+    with open(file=f'..{os.sep}data{os.sep}tot_texts.pck', mode='wb') as pfile_w:
+        dump(obj=tot_texts, file=pfile_w)
+
+    # (2) file load: read binary
+    with open(file=f'..{os.sep}data{os.sep}tot_texts.pck', mode='rb') as pfile_r:
+        tot_texts_read: list[str] = load(file=pfile_r)
+except Exception as e:
+    print('예외 발생:', e)
+
+print('tot_texts 길이 =', len(tot_texts_read))
+print(type(tot_texts_read))
+print(tot_texts_read)
