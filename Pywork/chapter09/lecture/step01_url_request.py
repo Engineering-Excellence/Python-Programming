@@ -3,16 +3,19 @@
 # 9.2.1 원격 서버에서 자료 수집
 
 # (1) request, BeautifulSoup 모듈 import
-from urllib.request import urlopen  # 원격 서버 파일 요청
+# from urllib import request as req
+# from http.client import HTTPResponse
+from urllib3 import BaseHTTPResponse, request as req  # 원격 서버 파일 요청
 from bs4 import BeautifulSoup, Tag  # html 파싱
-from http.client import HTTPResponse
 
 # 요청할 url
 url: str = 'https://www.naver.com/index.html'
 
 # (2) 원격 서버 파일 요청
-res: HTTPResponse = urlopen(url=url)  # web 문서 요청
-data: bytes = res.read()  # text 형태로 읽음
+# res: HTTPResponse = req.urlopen(url=url)
+# data: bytes = res.read()
+res: BaseHTTPResponse = req(method='GET', url=url)  # web 문서 요청
+data: bytes = res.data  # text 형태로 읽음
 
 # (3) source 디코딩
 src: str = data.decode(encoding='utf-8')  # 디코딩
