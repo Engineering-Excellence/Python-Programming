@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+table {
+    border-collapse: collapse; /* 중복 테두리 제거 */
+    border: 3px solid black; /* 테두리 굵기 실선 색 */
+    width: 80%; /* 화면 전체 폭 */
+    text-align: center; /* 텍스트 정렬 방식 */
+}
+
+tr {
+    height: 24px; /* 줄 간격 */
+    font-size: 13px; /* 글자 크기 */
+}
+
+tr:hover { /* 행 위에 마우스 오버 시 */
+    collapse: #ffffff; /* 글자색 흰색 */
+    font-weight: bold; /* 굵게 */
+    background-color: #00ccff; /* 배경색: 하늘색 계열 */
+    cursor: pointer; /* 커서 모양 변경 */
+}
+
+th { /* 표 제목 열 스타일 적용 */
+    height: 25px;
+    font-size: 14px;
+    background-color: #e0bbd2;
+}
+
+/* 형식: #id {속성: 값;} - id 중복 불가능 */
+#id {
+    width: 15%
+}
+
+#name {
+    width: 10%
+}
+
+#major {
+    width: 25%
+}
+
+#email {
+    width: 60%
+}
+
+/* 형식: .class {속성: 값;} - class 중복 가능 */
+.odd {
+    background-color: #F2FF9D /* 홀수행 배경색 적용 */
+}

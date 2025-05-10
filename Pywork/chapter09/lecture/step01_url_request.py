@@ -24,7 +24,7 @@ print(src)
 # (4) html 파싱
 # html: BeautifulSoup = BeautifulSoup(markup=src, features='html.parser')  # 내장 html 파싱
 html: BeautifulSoup = BeautifulSoup(markup=src, features='lxml')  # 빠르고 강력한 파싱
-print(html)
+print(html.prettify())
 
 # (5) 태그 내용
 a: Tag = html.find(name='a')
