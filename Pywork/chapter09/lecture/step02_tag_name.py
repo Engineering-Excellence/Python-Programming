@@ -1,10 +1,10 @@
 # 9.2.2 로컬에서 자료 수집
 from bs4 import BeautifulSoup, Tag, ResultSet
-from os import sep
+from os import path
 from typing import TextIO
 
 # (1) 로컬 서버 파일 읽기
-file: TextIO = open(f'..{sep}data{sep}html01.html', 'r', encoding='utf-8')
+file: TextIO = open(path.join(path.dirname(__file__), '..', 'data', 'html01.html'), 'r', encoding='utf-8')
 text: str = file.read()
 file.close()
 

@@ -1,11 +1,11 @@
 # 9.2.3 태그 속성 수집
 from bs4 import BeautifulSoup, ResultSet
 from re import compile
-from os import sep
+from os import path
 from typing import TextIO, Pattern
 
 # (1) 로컬 파일 읽기
-file: TextIO = open(f'..{sep}data{sep}html02.html', 'r', encoding='utf-8')
+file: TextIO = open(path.join(path.dirname(__file__), '..', 'data', 'html02.html'), 'r', encoding='utf-8')
 source: str = file.read()
 file.close()
 

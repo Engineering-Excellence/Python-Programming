@@ -1,10 +1,10 @@
 # 9.3 선택자 자료 수집
 from bs4 import BeautifulSoup, Tag, ResultSet
-from os import sep
+from os import path
 from typing import TextIO
 
 # (1) 로컬 파일 읽기
-file: TextIO = open(f'..{sep}data{sep}html03.html', 'r', encoding='utf-8')
+file: TextIO = open(path.join(path.dirname(__file__), '..', 'data', 'html03.html'), 'r', encoding='utf-8')
 source: str = file.read()
 
 # (2) html 파싱
