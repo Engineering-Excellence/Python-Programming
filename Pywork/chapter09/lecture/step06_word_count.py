@@ -49,3 +49,32 @@ new_word_counter: Counter[str] = Counter(new_word_count)
 top5_word: list[tuple[str, int]] = new_word_counter.most_common(5)
 print('>> top 5 단어 <<')
 print(top5_word, end='\n\n')
+
+# 9.6 자료 시각화
+
+# 9.6.1 단어 출현빈도수 시각화
+
+# (1) 단어와 출현 빈도수 만들기
+words: list[str] = []
+counts: list[int] = []
+for word, count in top5_word:
+    words.append(word)
+    counts.append(count)
+print(words)
+print(counts, end='\n\n')
+
+# (2) 차트에서 한글 지원
+from matplotlib import font_manager, rc, pyplot as plt
+
+font_name: str = font_manager.FontProperties(fname='C:\Windows\Fonts\gulim.ttc').get_name()
+rc(group='font', family=font_name)
+
+# (3) 선 그래프
+print('선 그래프')
+plt.plot(words, counts)  # 그리기
+plt.show()  # 보이기
+
+# (4) 막대 그래프
+print('막대 그래프')
+plt.bar(x=words, height=counts)  # 그리기
+plt.show()  # 보이기
