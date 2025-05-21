@@ -1,0 +1,1142 @@
+[
+    {
+        "id": "05:Label563047854",
+        "name": "32bit",
+        "color": "0e8a16",
+        "description": "32-bit systems",
+        "url": "https://github.com/pandas-dev/pandas/labels/32bit",
+        "__id": "MDU6TGFiZWw1NjMwNDc4NTQ=",
+        "nameHTML": "32bit",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label32933285",
+        "name": "Admin",
+        "color": "DDDDDD",
+        "description": "Administrative tasks related to the pandas project",
+        "url": "https://github.com/pandas-dev/pandas/labels/Admin",
+        "__id": "MDU6TGFiZWwzMjkzMzI4NQ==",
+        "nameHTML": "Admin",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label57296398",
+        "name": "Algos",
+        "color": "eb6420",
+        "description": "Non-arithmetic algos: value_counts, factorize, sorting, isin, clip, shift, diff",
+        "url": "https://github.com/pandas-dev/pandas/labels/Algos",
+        "__id": "MDU6TGFiZWw1NzI5NjM5OA==",
+        "nameHTML": "Algos",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1741841389",
+        "name": "API - Consistency",
+        "color": "b60205",
+        "description": "Internal Consistency of API/Behavior",
+        "url": "https://github.com/pandas-dev/pandas/labels/API%20-%20Consistency",
+        "__id": "MDU6TGFiZWwxNzQxODQxMzg5",
+        "nameHTML": "API - Consistency",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label35818298",
+        "name": "API Design",
+        "color": "AD7FA8",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/API%20Design",
+        "__id": "MDU6TGFiZWwzNTgxODI5OA==",
+        "nameHTML": "API Design",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label697792067",
+        "name": "Apply",
+        "color": "fbca04",
+        "description": "Apply, Aggregate, Transform, Map",
+        "url": "https://github.com/pandas-dev/pandas/labels/Apply",
+        "__id": "MDU6TGFiZWw2OTc3OTIwNjc=",
+        "nameHTML": "Apply",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2628846204",
+        "name": "ARM",
+        "color": "c2e0c6",
+        "description": "aarch64 architecture",
+        "url": "https://github.com/pandas-dev/pandas/labels/ARM",
+        "__id": "MDU6TGFiZWwyNjI4ODQ2MjA0",
+        "nameHTML": "ARM",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label3303158446",
+        "name": "Arrow",
+        "color": "f9d0c4",
+        "description": "pyarrow functionality",
+        "url": "https://github.com/pandas-dev/pandas/labels/Arrow",
+        "__id": "MDU6TGFiZWwzMzAzMTU4NDQ2",
+        "nameHTML": "Arrow",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label732775912",
+        "name": "Benchmark",
+        "color": "ae68cc",
+        "description": "Performance (ASV) benchmarks",
+        "url": "https://github.com/pandas-dev/pandas/labels/Benchmark",
+        "__id": "MDU6TGFiZWw3MzI3NzU5MTI=",
+        "nameHTML": "Benchmark",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label77550281",
+        "name": "Blocker",
+        "color": "e11d21",
+        "description": "Blocking issue or pull request for an upcoming release",
+        "url": "https://github.com/pandas-dev/pandas/labels/Blocker",
+        "__id": "MDU6TGFiZWw3NzU1MDI4MQ==",
+        "nameHTML": "Blocker",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label76811",
+        "name": "Bug",
+        "color": "e10c02",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/Bug",
+        "__id": "MDU6TGFiZWw3NjgxMQ==",
+        "nameHTML": "Bug",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label129350",
+        "name": "Build",
+        "color": "75507B",
+        "description": "Library building on various platforms",
+        "url": "https://github.com/pandas-dev/pandas/labels/Build",
+        "__id": "MDU6TGFiZWwxMjkzNTA=",
+        "nameHTML": "Build",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label78527356",
+        "name": "Categorical",
+        "color": "e11d21",
+        "description": "Categorical Data Type",
+        "url": "https://github.com/pandas-dev/pandas/labels/Categorical",
+        "__id": "MDU6TGFiZWw3ODUyNzM1Ng==",
+        "nameHTML": "Categorical",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label48070600",
+        "name": "CI",
+        "color": "a2bca7",
+        "description": "Continuous Integration",
+        "url": "https://github.com/pandas-dev/pandas/labels/CI",
+        "__id": "MDU6TGFiZWw0ODA3MDYwMA==",
+        "nameHTML": "CI",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label211029535",
+        "name": "Clean",
+        "color": "207de5",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/Clean",
+        "__id": "MDU6TGFiZWwyMTEwMjk1MzU=",
+        "nameHTML": "Clean",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2365504893",
+        "name": "Closing Candidate",
+        "color": "be21f2",
+        "description": "May be closeable, needs more eyeballs",
+        "url": "https://github.com/pandas-dev/pandas/labels/Closing%20Candidate",
+        "__id": "MDU6TGFiZWwyMzY1NTA0ODkz",
+        "nameHTML": "Closing Candidate",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label106935113",
+        "name": "Code Style",
+        "color": "eb6420",
+        "description": "Code style, linting, code_checks",
+        "url": "https://github.com/pandas-dev/pandas/labels/Code%20Style",
+        "__id": "MDU6TGFiZWwxMDY5MzUxMTM=",
+        "nameHTML": "Code Style",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2187005593",
+        "name": "Community",
+        "color": "0bbec4",
+        "description": "Community topics (meetings, etc.)",
+        "url": "https://github.com/pandas-dev/pandas/labels/Community",
+        "__id": "MDU6TGFiZWwyMTg3MDA1NTkz",
+        "nameHTML": "Community",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label76865106",
+        "name": "Compat",
+        "color": "0052cc",
+        "description": "pandas objects compatability with Numpy or Python functions",
+        "url": "https://github.com/pandas-dev/pandas/labels/Compat",
+        "__id": "MDU6TGFiZWw3Njg2NTEwNg==",
+        "nameHTML": "Compat",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label172091424",
+        "name": "Complex",
+        "color": "009800",
+        "description": "Complex Numbers",
+        "url": "https://github.com/pandas-dev/pandas/labels/Complex",
+        "__id": "MDU6TGFiZWwxNzIwOTE0MjQ=",
+        "nameHTML": "Complex",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1465286368",
+        "name": "Constructors",
+        "color": "d4c5f9",
+        "description": "Series/DataFrame/Index/pd.array Constructors",
+        "url": "https://github.com/pandas-dev/pandas/labels/Constructors",
+        "__id": "MDU6TGFiZWwxNDY1Mjg2MzY4",
+        "nameHTML": "Constructors",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2085877452",
+        "name": "Copy / view semantics",
+        "color": "70e5ca",
+        "description": "",
+        "url": "https://github.com/pandas-dev/pandas/labels/Copy%20%2F%20view%20semantics",
+        "__id": "MDU6TGFiZWwyMDg1ODc3NDUy",
+        "nameHTML": "Copy / view semantics",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1639305834",
+        "name": "cut",
+        "color": "9aace2",
+        "description": "cut, qcut",
+        "url": "https://github.com/pandas-dev/pandas/labels/cut",
+        "__id": "MDU6TGFiZWwxNjM5MzA1ODM0",
+        "nameHTML": "cut",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1049312478",
+        "name": "DataFrame",
+        "color": "370f77",
+        "description": "DataFrame data structure",
+        "url": "https://github.com/pandas-dev/pandas/labels/DataFrame",
+        "__id": "MDU6TGFiZWwxMDQ5MzEyNDc4",
+        "nameHTML": "DataFrame",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label211840",
+        "name": "Datetime",
+        "color": "AFEEEE",
+        "description": "Datetime data dtype",
+        "url": "https://github.com/pandas-dev/pandas/labels/Datetime",
+        "__id": "MDU6TGFiZWwyMTE4NDA=",
+        "nameHTML": "Datetime",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label3059772828",
+        "name": "datetime.date",
+        "color": "bfd4f2",
+        "description": "stdlib datetime.date support",
+        "url": "https://github.com/pandas-dev/pandas/labels/datetime.date",
+        "__id": "MDU6TGFiZWwzMDU5NzcyODI4",
+        "nameHTML": "datetime.date",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label527603109",
+        "name": "Dependencies",
+        "color": "d93f0b",
+        "description": "Required and optional dependencies",
+        "url": "https://github.com/pandas-dev/pandas/labels/Dependencies",
+        "__id": "MDU6TGFiZWw1Mjc2MDMxMDk=",
+        "nameHTML": "Dependencies",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label87485152",
+        "name": "Deprecate",
+        "color": "5319e7",
+        "description": "Functionality to remove in pandas",
+        "url": "https://github.com/pandas-dev/pandas/labels/Deprecate",
+        "__id": "MDU6TGFiZWw4NzQ4NTE1Mg==",
+        "nameHTML": "Deprecate",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label134699",
+        "name": "Docs",
+        "color": "3465A4",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/Docs",
+        "__id": "MDU6TGFiZWwxMzQ2OTk=",
+        "nameHTML": "Docs",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label31404521",
+        "name": "Dtype Conversions",
+        "color": "e102d8",
+        "description": "Unexpected or buggy dtype conversions",
+        "url": "https://github.com/pandas-dev/pandas/labels/Dtype%20Conversions",
+        "__id": "MDU6TGFiZWwzMTQwNDUyMQ==",
+        "nameHTML": "Dtype Conversions",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label40153326",
+        "name": "Duplicate Report",
+        "color": "009800",
+        "description": "Duplicate issue or pull request",
+        "url": "https://github.com/pandas-dev/pandas/labels/Duplicate%20Report",
+        "__id": "MDU6TGFiZWw0MDE1MzMyNg==",
+        "nameHTML": "Duplicate Report",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1633019538",
+        "name": "duplicated",
+        "color": "fc6feb",
+        "description": "duplicated, drop_duplicates",
+        "url": "https://github.com/pandas-dev/pandas/labels/duplicated",
+        "__id": "MDU6TGFiZWwxNjMzMDE5NTM4",
+        "nameHTML": "duplicated",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label76812",
+        "name": "Enhancement",
+        "color": "4E9A06",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/Enhancement",
+        "__id": "MDU6TGFiZWw3NjgxMg==",
+        "nameHTML": "Enhancement",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label42670965",
+        "name": "Error Reporting",
+        "color": "ffa0ff",
+        "description": "Incorrect or improved errors from pandas",
+        "url": "https://github.com/pandas-dev/pandas/labels/Error%20Reporting",
+        "__id": "MDU6TGFiZWw0MjY3MDk2NQ==",
+        "nameHTML": "Error Reporting",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1631985267",
+        "name": "expressions",
+        "color": "f3afff",
+        "description": "pd.eval, query",
+        "url": "https://github.com/pandas-dev/pandas/labels/expressions",
+        "__id": "MDU6TGFiZWwxNjMxOTg1MjY3",
+        "nameHTML": "expressions",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label849023693",
+        "name": "ExtensionArray",
+        "color": "6138b5",
+        "description": "Extending pandas with custom dtypes or arrays.",
+        "url": "https://github.com/pandas-dev/pandas/labels/ExtensionArray",
+        "__id": "MDU6TGFiZWw4NDkwMjM2OTM=",
+        "nameHTML": "ExtensionArray",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label53181044",
+        "name": "Frequency",
+        "color": "0052cc",
+        "description": "DateOffsets",
+        "url": "https://github.com/pandas-dev/pandas/labels/Frequency",
+        "__id": "MDU6TGFiZWw1MzE4MTA0NA==",
+        "nameHTML": "Frequency",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label717120670",
+        "name": "good first issue",
+        "color": "0e8a16",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/good%20first%20issue",
+        "__id": "MDU6TGFiZWw3MTcxMjA2NzA=",
+        "nameHTML": "good first issue",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label233160",
+        "name": "Groupby",
+        "color": "729FCF",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/Groupby",
+        "__id": "MDU6TGFiZWwyMzMxNjA=",
+        "nameHTML": "Groupby",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1654197779",
+        "name": "hashing",
+        "color": "6beae0",
+        "description": "hash_pandas_object",
+        "url": "https://github.com/pandas-dev/pandas/labels/hashing",
+        "__id": "MDU6TGFiZWwxNjU0MTk3Nzc5",
+        "nameHTML": "hashing",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label157369",
+        "name": "Ideas",
+        "color": "DDDDDD",
+        "description": "Long-Term Enhancement Discussions",
+        "url": "https://github.com/pandas-dev/pandas/labels/Ideas",
+        "__id": "MDU6TGFiZWwxNTczNjk=",
+        "nameHTML": "Ideas",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1218227310",
+        "name": "Index",
+        "color": "e99695",
+        "description": "Related to the Index class or subclasses",
+        "url": "https://github.com/pandas-dev/pandas/labels/Index",
+        "__id": "MDU6TGFiZWwxMjE4MjI3MzEw",
+        "nameHTML": "Index",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2822098",
+        "name": "Indexing",
+        "color": "0b02e1",
+        "description": "Related to indexing on series/frames, not to indexes themselves",
+        "url": "https://github.com/pandas-dev/pandas/labels/Indexing",
+        "__id": "MDU6TGFiZWwyODIyMDk4",
+        "nameHTML": "Indexing",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label49094459",
+        "name": "Internals",
+        "color": "fbca04",
+        "description": "Related to non-user accessible pandas implementation",
+        "url": "https://github.com/pandas-dev/pandas/labels/Internals",
+        "__id": "MDU6TGFiZWw0OTA5NDQ1OQ==",
+        "nameHTML": "Internals",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label150096370",
+        "name": "Interval",
+        "color": "009800",
+        "description": "Interval data type",
+        "url": "https://github.com/pandas-dev/pandas/labels/Interval",
+        "__id": "MDU6TGFiZWwxNTAwOTYzNzA=",
+        "nameHTML": "Interval",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label47229171",
+        "name": "IO CSV",
+        "color": "5319e7",
+        "description": "read_csv, to_csv",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20CSV",
+        "__id": "MDU6TGFiZWw0NzIyOTE3MQ==",
+        "nameHTML": "IO CSV",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2301354",
+        "name": "IO Data",
+        "color": "06909A",
+        "description": "IO issues that don't fit into a more specific label",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20Data",
+        "__id": "MDU6TGFiZWwyMzAxMzU0",
+        "nameHTML": "IO Data",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label49254273",
+        "name": "IO Excel",
+        "color": "bfe5bf",
+        "description": "read_excel, to_excel",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20Excel",
+        "__id": "MDU6TGFiZWw0OTI1NDI3Mw==",
+        "nameHTML": "IO Excel",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1728902385",
+        "name": "IO Fixed Width",
+        "color": "e99695",
+        "description": "read_fwf",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20Fixed%20Width",
+        "__id": "MDU6TGFiZWwxNzI4OTAyMzg1",
+        "nameHTML": "IO Fixed Width",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label47229190",
+        "name": "IO HDF5",
+        "color": "5319e7",
+        "description": "read_hdf, HDFStore",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20HDF5",
+        "__id": "MDU6TGFiZWw0NzIyOTE5MA==",
+        "nameHTML": "IO HDF5",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label57395487",
+        "name": "IO HTML",
+        "color": "006b75",
+        "description": "read_html, to_html, Styler.apply, Styler.applymap",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20HTML",
+        "__id": "MDU6TGFiZWw1NzM5NTQ4Nw==",
+        "nameHTML": "IO HTML",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label49379259",
+        "name": "IO JSON",
+        "color": "207de5",
+        "description": "read_json, to_json, json_normalize",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20JSON",
+        "__id": "MDU6TGFiZWw0OTM3OTI1OQ==",
+        "nameHTML": "IO JSON",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label251382258",
+        "name": "IO LaTeX",
+        "color": "006b75",
+        "description": "to_latex",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20LaTeX",
+        "__id": "MDU6TGFiZWwyNTEzODIyNTg=",
+        "nameHTML": "IO LaTeX",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label49381477",
+        "name": "IO Network",
+        "color": "e4a5f1",
+        "description": "Local or Cloud (AWS, GCS, etc.) IO Issues",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20Network",
+        "__id": "MDU6TGFiZWw0OTM4MTQ3Nw==",
+        "nameHTML": "IO Network",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label685114413",
+        "name": "IO Parquet",
+        "color": "5319e7",
+        "description": "parquet, feather",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20Parquet",
+        "__id": "MDU6TGFiZWw2ODUxMTQ0MTM=",
+        "nameHTML": "IO Parquet",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1625435109",
+        "name": "IO Pickle",
+        "color": "6c1cdb",
+        "description": "read_pickle, to_pickle",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20Pickle",
+        "__id": "MDU6TGFiZWwxNjI1NDM1MTA5",
+        "nameHTML": "IO Pickle",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label258745163",
+        "name": "IO SAS",
+        "color": "5319e7",
+        "description": "SAS: read_sas",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20SAS",
+        "__id": "MDU6TGFiZWwyNTg3NDUxNjM=",
+        "nameHTML": "IO SAS",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label47232590",
+        "name": "IO SQL",
+        "color": "5319e7",
+        "description": "to_sql, read_sql, read_sql_query",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20SQL",
+        "__id": "MDU6TGFiZWw0NzIzMjU5MA==",
+        "nameHTML": "IO SQL",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label104865385",
+        "name": "IO Stata",
+        "color": "5319e7",
+        "description": "read_stata, to_stata",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20Stata",
+        "__id": "MDU6TGFiZWwxMDQ4NjUzODU=",
+        "nameHTML": "IO Stata",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2707590670",
+        "name": "IO XML",
+        "color": "1d76db",
+        "description": "read_xml, to_xml",
+        "url": "https://github.com/pandas-dev/pandas/labels/IO%20XML",
+        "__id": "MDU6TGFiZWwyNzA3NTkwNjcw",
+        "nameHTML": "IO XML",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2468482981",
+        "name": "isin",
+        "color": "fef2c0",
+        "description": "isin method",
+        "url": "https://github.com/pandas-dev/pandas/labels/isin",
+        "__id": "MDU6TGFiZWwyNDY4NDgyOTgx",
+        "nameHTML": "isin",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1233745380",
+        "name": "Linux",
+        "color": "f9c1b1",
+        "description": "Linux OS",
+        "url": "https://github.com/pandas-dev/pandas/labels/Linux",
+        "__id": "MDU6TGFiZWwxMjMzNzQ1Mzgw",
+        "nameHTML": "Linux",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label183784729",
+        "name": "Master Tracker",
+        "color": "fbca04",
+        "description": "High level tracker for similar issues",
+        "url": "https://github.com/pandas-dev/pandas/labels/Master%20Tracker",
+        "__id": "MDU6TGFiZWwxODM3ODQ3Mjk=",
+        "nameHTML": "Master Tracker",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1539579994",
+        "name": "metadata",
+        "color": "56efc9",
+        "description": "_metadata, .attrs",
+        "url": "https://github.com/pandas-dev/pandas/labels/metadata",
+        "__id": "MDU6TGFiZWwxNTM5NTc5OTk0",
+        "nameHTML": "metadata",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2822342",
+        "name": "Missing-data",
+        "color": "d7e102",
+        "description": "np.nan, pd.NaT, pd.NA, dropna, isNone, interpolate",
+        "url": "https://github.com/pandas-dev/pandas/labels/Missing-data",
+        "__id": "MDU6TGFiZWwyODIyMzQy",
+        "nameHTML": "Missing-data",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1991290519",
+        "name": "Mothballed",
+        "color": "b60205",
+        "description": "Temporarily-closed PR the author plans to return to",
+        "url": "https://github.com/pandas-dev/pandas/labels/Mothballed",
+        "__id": "MDU6TGFiZWwxOTkxMjkwNTE5",
+        "nameHTML": "Mothballed",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2365503554",
+        "name": "Multi-Block",
+        "color": "e99695",
+        "description": "Issues caused by the presence of multiple Blocks",
+        "url": "https://github.com/pandas-dev/pandas/labels/Multi-Block",
+        "__id": "MDU6TGFiZWwyMzY1NTAzNTU0",
+        "nameHTML": "Multi-Block",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label71268330",
+        "name": "MultiIndex",
+        "color": "207de5",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/MultiIndex",
+        "__id": "MDU6TGFiZWw3MTI2ODMzMA==",
+        "nameHTML": "MultiIndex",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label34423912",
+        "name": "Multithreading",
+        "color": "ededed",
+        "description": "Parallelism in pandas",
+        "url": "https://github.com/pandas-dev/pandas/labels/Multithreading",
+        "__id": "MDU6TGFiZWwzNDQyMzkxMg==",
+        "nameHTML": "Multithreading",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1817503692",
+        "name": "NA - MaskedArrays",
+        "color": "8cc645",
+        "description": "Related to pd.NA and Noneable extension arrays",
+        "url": "https://github.com/pandas-dev/pandas/labels/NA%20-%20MaskedArrays",
+        "__id": "MDU6TGFiZWwxODE3NTAzNjky",
+        "nameHTML": "NA - MaskedArrays",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label219960758",
+        "name": "Needs Discussion",
+        "color": "207de5",
+        "description": "Requires discussion from core team before further action",
+        "url": "https://github.com/pandas-dev/pandas/labels/Needs%20Discussion",
+        "__id": "MDU6TGFiZWwyMTk5NjA3NTg=",
+        "nameHTML": "Needs Discussion",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label307649777",
+        "name": "Needs Info",
+        "color": "207de5",
+        "description": "Clarification about behavior needed to assess issue",
+        "url": "https://github.com/pandas-dev/pandas/labels/Needs%20Info",
+        "__id": "MDU6TGFiZWwzMDc2NDk3Nzc=",
+        "nameHTML": "Needs Info",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label986278782",
+        "name": "Needs Tests",
+        "color": "cdea3c",
+        "description": "Unit test(s) needed to prevent regressions",
+        "url": "https://github.com/pandas-dev/pandas/labels/Needs%20Tests",
+        "__id": "MDU6TGFiZWw5ODYyNzg3ODI=",
+        "nameHTML": "Needs Tests",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1954720290",
+        "name": "Needs Triage",
+        "color": "0052cc",
+        "description": "Issue that has not been reviewed by a pandas team member",
+        "url": "https://github.com/pandas-dev/pandas/labels/Needs%20Triage",
+        "__id": "MDU6TGFiZWwxOTU0NzIwMjkw",
+        "nameHTML": "Needs Triage",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2189479765",
+        "name": "Nested Data",
+        "color": "f2f989",
+        "description": "Data where the values are collections (lists, sets, dicts, objects, etc.).",
+        "url": "https://github.com/pandas-dev/pandas/labels/Nested%20Data",
+        "__id": "MDU6TGFiZWwyMTg5NDc5NzY1",
+        "nameHTML": "Nested Data",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2365523662",
+        "name": "Nuisance Columns",
+        "color": "120491",
+        "description": "Identifying/Dropping nuisance columns in reductions, groupby.add, DataFrame.apply",
+        "url": "https://github.com/pandas-dev/pandas/labels/Nuisance%20Columns",
+        "__id": "MDU6TGFiZWwyMzY1NTIzNjYy",
+        "nameHTML": "Nuisance Columns",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2138993554",
+        "name": "numba",
+        "color": "5319e7",
+        "description": "numba-accelerated operations",
+        "url": "https://github.com/pandas-dev/pandas/labels/numba",
+        "__id": "MDU6TGFiZWwyMTM4OTkzNTU0",
+        "nameHTML": "numba",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label47223669",
+        "name": "Numeric Operations",
+        "color": "006b75",
+        "description": "Arithmetic, Comparison, and Logical operations",
+        "url": "https://github.com/pandas-dev/pandas/labels/Numeric%20Operations",
+        "__id": "MDU6TGFiZWw0NzIyMzY2OQ==",
+        "nameHTML": "Numeric Operations",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label3260433562",
+        "name": "OS X",
+        "color": "0DF09E",
+        "description": "Related to Mac OS & hardware issues (M1)",
+        "url": "https://github.com/pandas-dev/pandas/labels/OS%20X",
+        "__id": "MDU6TGFiZWwzMjYwNDMzNTYy",
+        "nameHTML": "OS X",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label13101118",
+        "name": "Output-Formatting",
+        "color": "ededed",
+        "description": "__repr__ of pandas objects, to_string",
+        "url": "https://github.com/pandas-dev/pandas/labels/Output-Formatting",
+        "__id": "MDU6TGFiZWwxMzEwMTExOA==",
+        "nameHTML": "Output-Formatting",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label8935311",
+        "name": "Performance",
+        "color": "a10c02",
+        "description": "Memory or execution speed performance",
+        "url": "https://github.com/pandas-dev/pandas/labels/Performance",
+        "__id": "MDU6TGFiZWw4OTM1MzEx",
+        "nameHTML": "Performance",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label60635328",
+        "name": "Period",
+        "color": "eb6420",
+        "description": "Period data type",
+        "url": "https://github.com/pandas-dev/pandas/labels/Period",
+        "__id": "MDU6TGFiZWw2MDYzNTMyOA==",
+        "nameHTML": "Period",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2955636717",
+        "name": "Python 3.10",
+        "color": "fef2c0",
+        "description": "",
+        "url": "https://github.com/pandas-dev/pandas/labels/Python%203.10",
+        "__id": "MDU6TGFiZWwyOTU1NjM2NzE3",
+        "nameHTML": "Python 3.10",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1631984902",
+        "name": "quantile",
+        "color": "006b75",
+        "description": "quantile method",
+        "url": "https://github.com/pandas-dev/pandas/labels/quantile",
+        "__id": "MDU6TGFiZWwxNjMxOTg0OTAy",
+        "nameHTML": "quantile",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2365504383",
+        "name": "Reduction Operations",
+        "color": "547c03",
+        "description": "sum, mean, min, max, etc.",
+        "url": "https://github.com/pandas-dev/pandas/labels/Reduction%20Operations",
+        "__id": "MDU6TGFiZWwyMzY1NTA0Mzgz",
+        "nameHTML": "Reduction Operations",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label127681",
+        "name": "Refactor",
+        "color": "FCE94F",
+        "description": "Internal refactoring of code",
+        "url": "https://github.com/pandas-dev/pandas/labels/Refactor",
+        "__id": "MDU6TGFiZWwxMjc2ODE=",
+        "nameHTML": "Refactor",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label32815646",
+        "name": "Regression",
+        "color": "e11d21",
+        "description": "Functionality that used to work in a prior pandas version",
+        "url": "https://github.com/pandas-dev/pandas/labels/Regression",
+        "__id": "MDU6TGFiZWwzMjgxNTY0Ng==",
+        "nameHTML": "Regression",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label131473665",
+        "name": "Release",
+        "color": "006b75",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/Release",
+        "__id": "MDU6TGFiZWwxMzE0NzM2NjU=",
+        "nameHTML": "Release",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1652721180",
+        "name": "replace",
+        "color": "01a886",
+        "description": "replace method",
+        "url": "https://github.com/pandas-dev/pandas/labels/replace",
+        "__id": "MDU6TGFiZWwxNjUyNzIxMTgw",
+        "nameHTML": "replace",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label74975453",
+        "name": "Resample",
+        "color": "207de5",
+        "description": "resample method",
+        "url": "https://github.com/pandas-dev/pandas/labels/Resample",
+        "__id": "MDU6TGFiZWw3NDk3NTQ1Mw==",
+        "nameHTML": "Resample",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label13098779",
+        "name": "Reshaping",
+        "color": "02d7e1",
+        "description": "Concat, Merge/Join, Stack/Unstack, Explode",
+        "url": "https://github.com/pandas-dev/pandas/labels/Reshaping",
+        "__id": "MDU6TGFiZWwxMzA5ODc3OQ==",
+        "nameHTML": "Reshaping",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1653939309",
+        "name": "Roadmap",
+        "color": "1d76db",
+        "description": "A proposal for the roadmap.",
+        "url": "https://github.com/pandas-dev/pandas/labels/Roadmap",
+        "__id": "MDU6TGFiZWwxNjUzOTM5MzA5",
+        "nameHTML": "Roadmap",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1121248195",
+        "name": "Segfault",
+        "color": "36ede0",
+        "description": "Non-Recoverable Error",
+        "url": "https://github.com/pandas-dev/pandas/labels/Segfault",
+        "__id": "MDU6TGFiZWwxMTIxMjQ4MTk1",
+        "nameHTML": "Segfault",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1357732944",
+        "name": "Series",
+        "color": "8dd5fc",
+        "description": "Series data structure",
+        "url": "https://github.com/pandas-dev/pandas/labels/Series",
+        "__id": "MDU6TGFiZWwxMzU3NzMyOTQ0",
+        "nameHTML": "Series",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label3073524400",
+        "name": "setops",
+        "color": "006b75",
+        "description": "union, intersection, difference, symmetric_difference",
+        "url": "https://github.com/pandas-dev/pandas/labels/setops",
+        "__id": "MDU6TGFiZWwzMDczNTI0NDAw",
+        "nameHTML": "setops",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label49182326",
+        "name": "Sparse",
+        "color": "009800",
+        "description": "Sparse Data Type",
+        "url": "https://github.com/pandas-dev/pandas/labels/Sparse",
+        "__id": "MDU6TGFiZWw0OTE4MjMyNg==",
+        "nameHTML": "Sparse",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2347992045",
+        "name": "Stale",
+        "color": "7fcce8",
+        "description": "",
+        "url": "https://github.com/pandas-dev/pandas/labels/Stale",
+        "__id": "MDU6TGFiZWwyMzQ3OTkyMDQ1",
+        "nameHTML": "Stale",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1792318342",
+        "name": "Still Needs Manual Backport",
+        "color": "ededed",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/Still%20Needs%20Manual%20Backport",
+        "__id": "MDU6TGFiZWwxNzkyMzE4MzQy",
+        "nameHTML": "Still Needs Manual Backport",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label57522093",
+        "name": "Strings",
+        "color": "5319e7",
+        "description": "String extension data type and string data",
+        "url": "https://github.com/pandas-dev/pandas/labels/Strings",
+        "__id": "MDU6TGFiZWw1NzUyMjA5Mw==",
+        "nameHTML": "Strings",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1728592794",
+        "name": "Styler",
+        "color": "006b75",
+        "description": "conditional formatting using DataFrame.style",
+        "url": "https://github.com/pandas-dev/pandas/labels/Styler",
+        "__id": "MDU6TGFiZWwxNzI4NTkyNzk0",
+        "nameHTML": "Styler",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2559562239",
+        "name": "Subclassing",
+        "color": "abf98b",
+        "description": "Subclassing pandas objects",
+        "url": "https://github.com/pandas-dev/pandas/labels/Subclassing",
+        "__id": "MDU6TGFiZWwyNTU5NTYyMjM5",
+        "nameHTML": "Subclassing",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label127685",
+        "name": "Testing",
+        "color": "C4A000",
+        "description": "pandas testing functions or related to the test suite",
+        "url": "https://github.com/pandas-dev/pandas/labels/Testing",
+        "__id": "MDU6TGFiZWwxMjc2ODU=",
+        "nameHTML": "Testing",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label49597148",
+        "name": "Timedelta",
+        "color": "5319e7",
+        "description": "Timedelta data type",
+        "url": "https://github.com/pandas-dev/pandas/labels/Timedelta",
+        "__id": "MDU6TGFiZWw0OTU5NzE0OA==",
+        "nameHTML": "Timedelta",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label60458168",
+        "name": "Timezones",
+        "color": "5319e7",
+        "description": "Timezone data dtype",
+        "url": "https://github.com/pandas-dev/pandas/labels/Timezones",
+        "__id": "MDU6TGFiZWw2MDQ1ODE2OA==",
+        "nameHTML": "Timezones",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1280988427",
+        "name": "Typing",
+        "color": "ea91a4",
+        "description": "type annotations, mypy/pyright type checking",
+        "url": "https://github.com/pandas-dev/pandas/labels/Typing",
+        "__id": "MDU6TGFiZWwxMjgwOTg4NDI3",
+        "nameHTML": "Typing",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label36380025",
+        "name": "Unicode",
+        "color": "444444",
+        "description": "Unicode strings",
+        "url": "https://github.com/pandas-dev/pandas/labels/Unicode",
+        "__id": "MDU6TGFiZWwzNjM4MDAyNQ==",
+        "nameHTML": "Unicode",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label76939933",
+        "name": "Unreliable Test",
+        "color": "5319e7",
+        "description": "Unit tests that occasionally fail",
+        "url": "https://github.com/pandas-dev/pandas/labels/Unreliable%20Test",
+        "__id": "MDU6TGFiZWw3NjkzOTkzMw==",
+        "nameHTML": "Unreliable Test",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2533668378",
+        "name": "Upstream issue",
+        "color": "d8439a",
+        "description": "Issue related to pandas dependency",
+        "url": "https://github.com/pandas-dev/pandas/labels/Upstream%20issue",
+        "__id": "MDU6TGFiZWwyNTMzNjY4Mzc4",
+        "nameHTML": "Upstream issue",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label34444536",
+        "name": "Usage Question",
+        "color": "0052cc",
+        "description": null,
+        "url": "https://github.com/pandas-dev/pandas/labels/Usage%20Question",
+        "__id": "MDU6TGFiZWwzNDQ0NDUzNg==",
+        "nameHTML": "Usage Question",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label2413328",
+        "name": "Visualization",
+        "color": "8AE234",
+        "description": "plotting",
+        "url": "https://github.com/pandas-dev/pandas/labels/Visualization",
+        "__id": "MDU6TGFiZWwyNDEzMzI4",
+        "nameHTML": "Visualization",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1628184320",
+        "name": "Warnings",
+        "color": "f2f074",
+        "description": "Warnings that appear or should be added to pandas",
+        "url": "https://github.com/pandas-dev/pandas/labels/Warnings",
+        "__id": "MDU6TGFiZWwxNjI4MTg0MzIw",
+        "nameHTML": "Warnings",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1508144531",
+        "name": "Web",
+        "color": "23ef97",
+        "description": "pandas website",
+        "url": "https://github.com/pandas-dev/pandas/labels/Web",
+        "__id": "MDU6TGFiZWwxNTA4MTQ0NTMx",
+        "nameHTML": "Web",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label1045950827",
+        "name": "Window",
+        "color": "d4c5f9",
+        "description": "rolling, ewma, expanding",
+        "url": "https://github.com/pandas-dev/pandas/labels/Window",
+        "__id": "MDU6TGFiZWwxMDQ1OTUwODI3",
+        "nameHTML": "Window",
+        "__typename": "Label"
+    },
+    {
+        "id": "05:Label57186974",
+        "name": "Windows",
+        "color": "fbca04",
+        "description": "Windows OS",
+        "url": "https://github.com/pandas-dev/pandas/labels/Windows",
+        "__id": "MDU6TGFiZWw1NzE4Njk3NA==",
+        "nameHTML": "Windows",
+        "__typename": "Label"
+    }
+]
