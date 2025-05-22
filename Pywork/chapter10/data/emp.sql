@@ -1,0 +1,60 @@
+-- 10.6 Table join
+
+-- 10.6.1 테이블 만들기
+
+-- (1) 사원 테이블
+
+-- 사용자 데이터베이스 선택
+USE work;
+
+-- 테이블 만들기
+CREATE TABLE IF NOT EXISTS EMP
+(
+    ENO      INT AUTO_INCREMENT PRIMARY KEY,
+    ENAME    VARCHAR(25) NOT NULL,
+    HIREDATE DATE        NOT NULL,
+    PAY      INT DEFAULT 0,
+    BONUS    INT DEFAULT 0,
+    DNAME    VARCHAR(50)
+);
+
+-- 사번 1001부터 1씩 자동 증가
+ALTER TABLE EMP
+    AUTO_INCREMENT = 1001;
+
+-- 테이블에 레코드 추가
+INSERT INTO EMP(ENAME, HIREDATE, PAY, BONUS, DNAME)
+VALUES ('홍길동', '2008-03-10', 300, 15, '영업부');
+INSERT INTO EMP(ENAME, HIREDATE, PAY, DNAME)
+VALUES ('강호동', '2010-03-10', 250, '판매부');
+INSERT INTO EMP(ENAME, HIREDATE, PAY, BONUS, DNAME)
+VALUES ('유관순', '2008-03-10', 200, 10, '회계부');
+INSERT INTO EMP(ENAME, HIREDATE, PAY, BONUS, DNAME)
+VALUES ('강감찬', '2007-01-10', 400, 25, '영업부');
+COMMIT;
+
+-- 레코드 조회
+SELECT *
+FROM EMP;
+
+-- (2) 부서 테이블
+
+-- 테이블 만들기
+CREATE TABLE IF NOT EXISTS DEPT
+(
+    DNAME VARCHAR(50) NOT NULL,
+    DADDR VARCHAR(100)
+);
+
+-- 테이블에 레코드 추가
+INSERT INTO DEPT
+VALUES ('영업부', '뉴욕시');
+INSERT INTO DEPT
+VALUES ('판매부', '서울시');
+INSERT INTO DEPT
+VALUES ('회계부', '대전시');
+COMMIT;
+
+-- 레코드 조회
+SELECT *
+FROM DEPT;
